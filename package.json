@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
+    "predeploy": "tsc",
     "deploy": "gh-pages -d lib"
   },
   "repository": {
@@ -14,7 +15,6 @@
   "author": "",
   "license": "ISC",
   "types": "lib/index.d.ts",
-  "prepublish": "tsc",
   "bugs": {
     "url": "https://github.com/KotoGit/KotoGit.github.io/issues"
   },
