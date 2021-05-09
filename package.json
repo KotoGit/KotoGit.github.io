@@ -1,0 +1,26 @@
+{
+  "name": "KotoGit.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KotoGit/KotoGit.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "lib/index.d.ts",
+  "prepublish": "tsc",
+  "bugs": {
+    "url": "https://github.com/KotoGit/KotoGit.github.io/issues"
+  },
+  "homepage": "https://github.com/KotoGit/KotoGit.github.io",
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "typescript": "^2.7.2"
+  }
+}
