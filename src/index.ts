@@ -40,7 +40,7 @@ class TickInputHandler {
         // output the result in something the human understands
         var date = new Date(millisecondsSinceEpoch);
         return date.toISOString();
-        var dateTimeOutput = document.getElementById("datetime");
+        var dateTimeOutput = document.getElementById("datetime")!;
         dateTimeOutput.innerHTML = dateString;
     }
 }
