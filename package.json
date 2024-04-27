@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/KotoGit/KotoGit.github.io",
   "devDependencies": {
-    "gh-pages": "^1.2.0",
+    "gh-pages": ">=5.0.0",
     "typescript": "^2.7.2"
   }
 }
